@@ -1,6 +1,10 @@
 'use strict';
 
+
+//express is a library that is our server
 const express = require('express');
+
+//creates a const called app that is equal to express that requires the express library to be used. All future use of "app" will trigger that to use express
 const app = express();
 
 //pg is the library that connects the server to the database
